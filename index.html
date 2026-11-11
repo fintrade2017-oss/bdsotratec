@@ -1241,8 +1241,8 @@
     const GITHUB_RAW_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/${CLOUD_JSON_PATH}`;
 
     // === SUPABASE CONFIG (mismas credenciales que la web pública SOTRATEC) ===
-    const SUPABASE_URL = 'https://mgtwamzfqiduzenvdojk.supabase.co';
-    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1ndHdhbXpmcWlkdXplbnZkb2prIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU2ODk3ODEsImV4cCI6MjA4MTI2NTc4MX0.09h9gDL-dM5vnf5-x1k_LtkSbg7_gni7o2mdsLppqo8';
+    const SUPABASE_URL = 'https://jdaujfnfubqmufklmwpc.supabase.co';
+    const SUPABASE_ANON_KEY = 'sb_publishable_4P7Y23_qZpsOFxBr-pkhqA_KIomXFzG';
     let supabaseClient = null;
     try { supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY); } catch(e) { console.warn('Supabase not loaded'); }
 
@@ -3117,3 +3117,4 @@
     </script>
 </body>
 </html>
+
